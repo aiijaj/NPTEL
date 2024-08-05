@@ -1,0 +1,4 @@
+Create a Python program to compute the sum of the first N natural numbers {1,2,3...N}. The program should prompt the user to input the value of N, then compute and print the sum of the first N natural numbers.
+n=int(input()) # formula to find sum of n numbers:  Sn=n(n+1)/2  
+sum=n*(n+1)//2 #// is used to remove the floating value
+print(sum)
