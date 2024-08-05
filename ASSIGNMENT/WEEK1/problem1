@@ -1,0 +1,9 @@
+question:to print the absolute value of an given number
+def calculate_absolute_value(number):  #function to calculate the value 
+  if number <0:          # comparing the number lies between the negative or positive side 
+    return -number
+  else:
+    return number
+  user_input=int(input())
+  absolute_value=calculate_absolute_value(user_input)   
+  print(absolute_value)
